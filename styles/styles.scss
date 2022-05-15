@@ -60,11 +60,11 @@ header {
 
 section {
   min-height: 100vh;
-  width: 100%;
+  width: 105%;
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  max-width: 1380px;
 }
 
 .section {
