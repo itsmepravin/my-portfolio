@@ -59,12 +59,11 @@ header {
 }
 
 section {
-  min-height: 100vh;
-  width: 100%;
+  min-height: 150vh;
+  width: 95%;
   position: absolute;
   left: 0;
   top: 0;
-  // max-width: 1380px;
 }
 
 .section {
@@ -116,7 +115,7 @@ section {
   position: fixed;
   z-index: 10;
   top: 50%;
-  right: 3%;
+  right: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +150,7 @@ section {
 
 .theme-btn {
   top: 5%;
-  right: 3%;
+  right: 1%;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -162,10 +161,7 @@ section {
   justify-content: center;
   align-items: center;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
-  transition: all 0.1s ease-in-out;
-  &:active {
-    transform: translateY(-5px);
-  }
+
   i {
     font-size: 1.4rem;
     color: var(--color-grey-2);
@@ -717,17 +713,6 @@ section {
     font-weight: 700;
     span {
       color: var(--color-secondary);
-    }
-    .bg-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      color: var(--color-grey-5);
-      transition: var(--easeInOut);
-      z-index: -1;
-      transform: translate(-50%, -50%);
-      font-weight: 800;
-      font-size: 6.3rem;
     }
   }
 }
