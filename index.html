@@ -4,14 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pravin's Portfolio</title>
+    <title>Pravin Singh</title>
+    <link rel="icon" type="image/x-icon" href="/img/pravinLogo.png" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -19,21 +14,51 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      @font-face {
+        font-family: OriginTech;
+        src: url("fonts/OriginTech.otf");
+      }
+      @font-face {
+        font-family: RetroMonoWide;
+        src: url("fonts/Retro\ Mono\ Wide.ttf");
+      }
+      @font-face {
+        font-family: RetroStereoWide;
+        src: url("fonts/Retro\ Stereo\ Wide.ttf");
+      }
+      @font-face {
+        font-family: GilroyLight;
+        src: url("fonts/Gilroy-Light.otf");
+      }
+      @font-face {
+        font-family: GilroyExtraBold;
+        src: url("fonts/Gilroy-ExtraBold.otf");
+      }
+      @font-face {
+        font-family: OdinsSpear;
+        src: url("fonts/Odins-Spear.TTF");
+      }
+    </style>
   </head>
   <body class="main-content">
     <header class="section sec1 header active" id="home">
+      <div class="main-title">
+        <h2><span>Introduction</span></h2>
+      </div>
       <div class="header-content">
         <div class="left-header">
           <div class="h-shape"></div>
-          <div class="image">
-            <img src="img/heroImage.png" alt="" height="450px" />
+          <div class="charAndImageContainer">
+            <p id="nameCharFirst">P</p>
+            <p id="nameCharSecond">S</p>
+            <img id="image1" src="img/croppedImg3.png" alt="" />
+            <img id="image2" src="img/croppedImg2.png" alt="" />
+            <p id="nameCharThird">K</p>
           </div>
         </div>
         <div class="right-header">
-          <h1 class="name">
-            Hi, I'm <span>Pravin Singh.</span>
-            A Web Developer.
-          </h1>
+          <h1 class="name">Hi, I'm <span>Pravin Singh.</span></h1>
           <p>
             I am a self-taught Web Developer, who likes to work on front-end
             technologies, preferring mainly NextJS, React and SASS but not
@@ -52,11 +77,11 @@
             <h4>Information About Me</h4>
             <p>
               I took my Bachelors degree in Business Administration. I was first
-              introduced to programming in my A-Levels Computer Science, where
-              VB.net was used. During the lockdown period, was when I found my
-              aspiration for programming once again, only this time I was
-              interested in Web Development. The websites that helped me the
-              most were
+              introduced to programming in my A-Levels Computer Science, where I
+              used VB.net to create a simple program. I got into Web Development
+              shortly after the nation-wide lockdown, starting from basic
+              HTML/CSS to frameworks like React and NextJS and to MERN stack.
+              The websites that helped me the most during these times were
               <a href="https://www.w3schools.com/" target="_blank">W3Schools</a
               >,
               <a href="https://developer.mozilla.org/en-US/" target="_blank"
@@ -64,10 +89,14 @@
               >, and
               <a href="https://fullstackopen.com/en/about" target="_blank"
                 >FullStack Open</a
-              >, alongside youtube tutorials and blog posts.
+              >, alongside videos and well-written blogs.
             </p>
             <div class="btn-container">
-              <a href="https://github.com/itsmepravin" class="main-btn">
+              <a
+                href="https://github.com/itsmepravin?tab=repositories"
+                target="_blank"
+                class="main-btn"
+              >
                 <span class="btn-text">My Github</span>
                 <span class="btn-icon"
                   ><i class="fab fa-github-alt icons-text"></i
@@ -226,112 +255,298 @@
           <h2>My <span>Portfolio</span></h2>
         </div>
         <p class="portfolio-text">
-          Below are some of the project that I have done and some are work
-          in-progress.
+          Below are some of my personal(hobby) projects and tasks(projects done
+          for application of roles). Please visit the individual repo for more
+          details.
         </p>
-        <div class="portfolios">
-          <div class="portfolio-item">
+
+        <div class="portfoliosContainer">
+          <div class="portfolioItem">
             <div class="image">
-              <img src="img/pawnda.jpg" alt="" />
+              <img src="img/pawndaOverlay.jpg" alt="" />
             </div>
-            <div class="hover-items">
-              <h3>Made With :</h3>
-              <h3>MongoDB, Express, NodeJS, React, MaterialUI</h3>
-              <div class="icons">
-                <a
-                  href="https://github.com/itsmepravin?tab=repositories"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://pawnda.netlify.app"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
+            <div
+              class="hoverItems"
+              style="background-color: var(--color-pawnda)"
+            >
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="background-color: var(--color-pawnda)"
+                ></i>
+                <h3>Made With :</h3>
+                <h3>MongoDB, Express, NodeJS, React, MaterialUI</h3>
+                <div class="icons">
+                  <a
+                    href="https://pawnda.netlify.app"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-pawnda)"
+            >
+              Personal
+            </p>
           </div>
-          <div class="portfolio-item">
+
+          <div class="portfolioItem">
             <div class="image">
               <img src="img/nextjs-ecommerce.jpg" alt="" />
             </div>
-            <div class="hover-items">
-              <h3>Made With :</h3>
-              <h3>NextJS, React, SanityCMS, Stripe</h3>
-              <div class="icons">
-                <a
-                  href="https://github.com/itsmepravin/nextjs-ecommerce"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://nextjs-ecommerce-ruby.vercel.app/"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
+            <div class="hoverItems">
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="
+                    background-color: var(--color-nextjs-ecomm);
+                    backdrop-filter: var(--backdrop-filter);
+                  "
+                ></i>
+                <h3>Made With :</h3>
+                <h3>NextJS, React, SanityCMS</h3>
+                <div class="icons">
+                  <a
+                    href="https://github.com/itsmepravin/nextjs-ecommerce"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://nextjs-ecommerce-ruby.vercel.app/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-nextjs-ecomm)"
+            >
+              Personal
+            </p>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolioItem">
+            <div class="image">
+              <img src="img/techCommunity.JPG" alt="" />
+            </div>
+            <div
+              class="hoverItems"
+              style="background-color: var(--color-tech-community)"
+            >
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="background-color: var(--color-tech-community)"
+                ></i>
+                <h3>
+                  Only UI <br />
+                  <br />
+                  Made With :
+                </h3>
+                <h3>HTML, CSS</h3>
+                <div class="icons">
+                  <a
+                    href="https://github.com/itsmepravin/tech-community-project"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://tech-community-task.netlify.app/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-tech-community)"
+            >
+              Task
+            </p>
+          </div>
+
+          <div class="portfolioItem">
             <div class="image">
               <img src="img/fitness.jpg" alt="" />
             </div>
-            <div class="hover-items">
-              <h3>Only UI</h3>
-              <h3>Made With :</h3>
-              <h3>HTML, SASS, Bootstrap</h3>
-              <div class="icons">
-                <a
-                  href="https://github.com/itsmepravin/pravinFitnessWebpage"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://itsmepravin.github.io/pravinFitnessWebpage/"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
+            <div
+              class="hoverItems"
+              style="background-color: var(--color-fitness)"
+            >
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="background-color: var(--color-fitness)"
+                ></i>
+                <h3>
+                  Only UI <br />
+                  <br />
+                  Made With :
+                </h3>
+                <h3>HTML, SASS, Bootstrap</h3>
+                <div class="icons">
+                  <a
+                    href="https://github.com/itsmepravin/pravinFitnessWebpage"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://itsmepravin.github.io/pravinFitnessWebpage/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-fitness)"
+            >
+              Personal
+            </p>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolioItem">
             <div class="image">
-              <img src="img/constitution.PNG" alt="" />
+              <img src="img/constitutionOverlay.png" alt="" />
             </div>
-            <div class="hover-items">
-              <h3>Made With :</h3>
-              <h3>NextJS, React, MaterialUI</h3>
-              <div class="icons">
-                <a
-                  href="https://github.com/itsmepravin/constitution-project"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://constitution-project.vercel.app/"
-                  target="_blank"
-                  class="icon"
-                >
-                  <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
+            <div
+              class="hoverItems"
+              style="background-color: var(--color-constitution)"
+            >
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="background-color: var(--color-constitution)"
+                ></i>
+                <h3>Made With :</h3>
+                <h3>NextJS, React, MaterialUI</h3>
+                <div class="icons">
+                  <a
+                    href="https://github.com/itsmepravin/constitution-project"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://constitution-project.vercel.app/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-constitution)"
+            >
+              Personal
+            </p>
+          </div>
+
+          <div class="portfolioItem">
+            <div class="image">
+              <img src="img/srotaImage.JPG" alt="" />
+            </div>
+            <div
+              class="hoverItems"
+              style="background-color: var(--color-srota)"
+            >
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="background-color: var(--color-srota)"
+                ></i>
+                <h3>Made With :</h3>
+                <h3>ReactJS</h3>
+                <div class="icons">
+                  <a
+                    href="https://github.com/itsmepravin/srota-task"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://srota-task-pravin.netlify.app/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-srota)"
+            >
+              Task
+            </p>
+          </div>
+
+          <div class="portfolioItem">
+            <div class="image">
+              <img src="img/weekendWatch.JPG" alt="" />
+            </div>
+            <div
+              class="hoverItems"
+              style="background-color: var(--color-weekend-watch)"
+            >
+              <div class="innerLayer">
+                <i
+                  class="fas fa-arrow-up"
+                  style="background-color: var(--color-weekend-watch)"
+                ></i>
+                <h3>UI and API Fetch <br /><br />Made With :</h3>
+                <h3>ReactJS and SASS</h3>
+                <div class="icons">
+                  <a
+                    href="https://github.com/itsmepravin/weekend-watch"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://weekend-watch-task.netlify.app/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p
+              class="portfolioBadge"
+              style="background-color: var(--color-weekend-watch)"
+            >
+              Task
+            </p>
           </div>
         </div>
       </section>
@@ -392,51 +607,60 @@
           </div>
           <div class="contact-content-container">
             <div class="left-contact">
-              <h4>Contact me here</h4>
+              <h4>Contact Details</h4>
               <p>
                 If you want to get in touch with me, please use the information
                 below.
               </p>
               <div class="contact-info">
                 <div class="contact-item">
-                  <div class="icon">
+                  <div>
                     <i class="fas fa-map-marker-alt"></i>
                     <span>Location :</span>
                   </div>
-                  <p><span>Kathmandu, Nepal</span></p>
+                  <div>
+                    <p>Kathmandu, Nepal</p>
+                  </div>
                 </div>
                 <div class="contact-item">
-                  <div class="icon">
+                  <div>
                     <i class="fas fa-envelope"></i>
                     <span>Email :</span>
                   </div>
-                  <p><span>singh.pravin19@yahoo.com</span></p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-user-graduate"></i>
-                    <span>Education Level :</span>
+                  <div>
+                    <p>singh.pravin19@yahoo.com,</p>
+                    <p>dangerpravin20@gmail.com</p>
                   </div>
-                  <p>
-                    <span
-                      >High School, A-Levels, Bachelors in Business
-                      Administration(BBA)</span
-                    >
-                  </p>
                 </div>
+
                 <div class="contact-item">
-                  <div class="icon">
+                  <div>
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Education :</span>
+                  </div>
+                  <div>
+                    <p>High School, A-Levels, BBA</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div>
                     <i class="fas fa-phone"></i>
                     <span>Mobile :</span>
                   </div>
-                  <p><span>+977 9818538055</span></p>
+                  <div>
+                    <p>+977 9818538055</p>
+                  </div>
                 </div>
+
                 <div class="contact-item">
-                  <div class="icon">
+                  <div>
                     <i class="fas fa-globe-africa"></i>
                     <span>Languages :</span>
                   </div>
-                  <p><span>Nepali, English</span></p>
+                  <div>
+                    <p>Nepali, English</p>
+                  </div>
                 </div>
               </div>
               <div class="contact-icons">
@@ -446,9 +670,6 @@
                     target="_blank"
                   >
                     <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://github.com/itsmepravin" target="_blank">
-                    <i class="fab fa-github"></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/in/pravin-singh-karwal-55b237201"
@@ -512,16 +733,13 @@
       <div class="control control-3" data-id="portfolio">
         <i class="fas fa-briefcase"></i>
       </div>
-      <!-- <div class="control control-4" data-id="blogs">
-        <i class="far fa-newspaper"></i>
-      </div> -->
       <div class="control control-5" data-id="contact">
         <i class="fas fa-envelope-open"></i>
       </div>
     </div>
     <div class="theme-btn">
-      <i class="fas fa-adjust"></i>
+      <i id="themeButton" class="fas fa-sun"></i>
     </div>
-    <script src="App.js"></script>
+    <script type="text/javascript" src="App.js"></script>
   </body>
 </html>
