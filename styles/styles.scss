@@ -20,13 +20,12 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --color-pawnda: #61dafb;
-  --color-nextjs-ecomm: rgba(255, 255, 255, 0.4);
   --color-tech-community: #27ae60;
-  --color-fitness: #7952b3;
+  --color-fitness: #6610f2;
   --color-constitution: #f7df1e;
   --color-srota: greenyellow;
   --color-weekend-watch: #b41717;
-  --color-palmmind: #363795;
+  --color-palmmind: #0d6efd;
   --br-sm-2: 1rem;
   --backdropFilter: blur(0.5rem);
   --easeInOut: all 0.4s ease-in-out;
@@ -542,7 +541,6 @@ section {
           border-top-left-radius: 50%;
           border-top-right-radius: 50%;
           position: absolute;
-          // top: -11%;
           animation-name: animateArrow;
           animation-duration: 1s;
           animation-iteration-count: infinite;
