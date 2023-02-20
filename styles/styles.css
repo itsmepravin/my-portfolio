@@ -107,16 +107,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -153,8 +144,7 @@ section {
   height: 3rem;
   display: flex;
   justify-content: center;
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
   align-items: center;
   margin: 0.7rem 0;
   box-shadow: var(--box-shadow-1);
@@ -423,11 +413,14 @@ section {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
+  padding-left: 3rem;
 }
 .timeline .timeline-item {
   position: relative;
   padding-left: 3rem;
   border-left: 1px solid var(--color-grey-5);
+  display: flex;
+  justify-content: space-between;
 }
 .timeline .timeline-item .tl-icon {
   position: absolute;
@@ -444,7 +437,12 @@ section {
 .timeline .timeline-item .tl-icon i {
   font-size: 1.3rem;
 }
-.timeline .timeline-item .tl-duration {
+.timeline .timeline-item .tl-infoContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+}
+.timeline .timeline-item .tl-infoContainer .tl-duration {
   padding: 0.2rem 0.6rem;
   background-color: var(--color-grey-5);
   border-radius: 15px;
@@ -452,20 +450,27 @@ section {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
+  width: -moz-max-content;
+  width: max-content;
 }
-.timeline .timeline-item h5 {
+.timeline .timeline-item .tl-infoContainer h5 {
   padding: 1rem 0;
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 600;
 }
-.timeline .timeline-item h5 span {
+.timeline .timeline-item .tl-infoContainer h5 span {
   color: var(--color-grey-2);
   font-weight: 500;
   font-size: 1.2rem;
 }
-.timeline .timeline-item p {
+.timeline .timeline-item .tl-infoContainer p {
   color: var(--color-grey-2);
+  line-height: 25px;
+}
+.timeline .timeline-item img {
+  cursor: pointer;
+  width: 250px;
 }
 
 .portfolio-text {
@@ -534,20 +539,9 @@ section {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   position: absolute;
-  -webkit-animation-name: animateArrow;
-          animation-name: animateArrow;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-@-webkit-keyframes animateArrow {
-  0% {
-    top: -12%;
-  }
-  100% {
-    top: -16%;
-  }
+  animation-name: animateArrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 @keyframes animateArrow {
   0% {
@@ -815,6 +809,11 @@ section {
 @media screen and (min-width: 600px) {
   .portfoliosContainer .portfolioItem {
     flex: 2;
+  }
+}
+@media screen and (max-width: 421px) {
+  .timeline .timeline-item {
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 600px) {

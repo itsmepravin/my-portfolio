@@ -1,3 +1,11 @@
+@media screen and (max-width: 421px) {
+  .timeline {
+    .timeline-item {
+      flex-direction: column;
+    }
+  }
+}
+
 @media screen and (min-width: 600px) {
   .about-container {
     grid-template-columns: 1fr;
