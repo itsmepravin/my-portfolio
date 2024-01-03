@@ -54,7 +54,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Vairav Technology
+              LanceMe Up
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -63,8 +63,7 @@ export const Timeline = () => {
               Frontend Intern
             </h4>
             <p data-aos="fade-right">
-              Worked on government project and re-build vanilla website using
-              ReactJS.
+              - Maintained various projects, and re-builded vanilla websites with ReactJS.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -96,7 +95,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-left"
             >
-              Software Engineer Intern
+              Junior Frontend Developer
             </h4>
             <p data-aos="fade-left">
               - Integrated Google Maps Platform Places API and Google Maps
@@ -123,7 +122,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Mar 2023 - July 2023"}
+            date={"April 2023 - June 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -151,28 +150,17 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Jr. Frontend Developer
+              Junior Frontend Developer (Probation)
             </h4>
             <p data-aos="fade-right">
               - Developed and maintained responsive web applications, ensuring
               optimal user experiences across various devices and browsers.
             </p>
-            <p data-aos="fade-right">
-              - Collaborated closely with the design team to translate mockups
-              and wireframes into pixel-perfect, interactive web pages.
-            </p>
-            <p data-aos="fade-right">
-              - Implemented performance optimizations, resulting in a 30%
-              reduction in page load times.
-            </p>
-            <p data-aos="fade-right">
-              - Conducted code reviews and provided constructive feedback to
-              enhance code quality and team proficiency.
-            </p>
+            
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Aug 2023 - Present"}
+            date={"June 2023 - Nov 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -194,14 +182,26 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-left"
             >
-              IMS Software Pvt. Ltd
+              Supreme IT Solutions
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-left"
             >
-              Frontend Developer
+              Junior Frontend Developer
             </h4>
+            <p data-aos="fade-right">
+              - Collaborated closely with the design team to translate mockups
+              and wireframes into pixel-perfect, interactive web pages.
+            </p>
+            <p data-aos="fade-right">
+              - Implemented performance optimizations, resulting in a 30%
+              reduction in page load times.
+            </p>
+            <p data-aos="fade-right">
+              - Conducted code reviews and provided constructive feedback to
+              enhance code quality and team proficiency.
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement

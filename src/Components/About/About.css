@@ -7,9 +7,9 @@
 }
 .about > :nth-child(2) {
   margin-top: 1.2em;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.2;
-  color: var(--clr-fg-alt);
+  color: red;
 }
 
 .about__desc {
@@ -45,6 +45,9 @@
 }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+  }
   .mobileHead{
     align-content: center;
   }

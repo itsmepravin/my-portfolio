@@ -1,2 +1,3 @@
 # My Portfolio
-Link : imbickydutta.netlify.app
+
+Link : https://pravin-singh.netlify.app

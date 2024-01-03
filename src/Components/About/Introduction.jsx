@@ -15,24 +15,24 @@ export const Introduction = () => {
             About <span className="different">Me</span>
           </h2>
           <div className={"introduction " + themename}>
-            <div className="introduction_logocontainer">
+            {/* <div className="introduction_logocontainer">
               <img src={profilePic} alt="Images" />
-            </div>
+            </div> */}
             <div className="introduction_datacontainer">
               <h4>
-                I am <span className="different"> Pravin Singh</span>, from the
-                beautiful city of{" "}
+                I come from the
+                city of{" "}
                 <span className="different">Kathmandu, Nepal</span>. My academic
                 journey led me to graduate with a degree in BBA (Marketing) from
                 the esteemed{" "}
                 <span className="different">
-                  New Delhi Institute of Management (NDIM)
+                Kathmandu Institute of Science and Technology (KIST)
                 </span>{" "}
                 . Moreover, it was my relentless pursuit of knowledge and a
                 deep-seated passion for technology that introduced me to the
                 captivating realm of coding. Through self-driven learning and a
                 comprehensive Web Development Online Course from{" "}
-                <span className="different">Full Stack Open</span>, I embarked
+                <span className="different">The Odin Project</span>, I embarked
                 on a transformative journey into the world of web development.
               </h4>
             </div>
