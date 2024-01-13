@@ -50,7 +50,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/pravin-singh-karwal-55b237201"
+            href="https://www.linkedin.com/in/pravin-b-singh-r-karwal-55b237201/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"

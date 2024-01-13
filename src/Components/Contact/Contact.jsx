@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/pravin-singh-karwal-55b237201"
+              href="https://www.linkedin.com/in/pravin-b-singh-r-karwal-55b237201/"
               target="_blank"
               rel="noreferrer"
             >
