@@ -20,13 +20,12 @@ export const Introduction = () => {
             </div> */}
             <div className="introduction_datacontainer">
               <h4>
-                I come from the
-                city of{" "}
+                I come from the city of{" "}
                 <span className="different">Kathmandu, Nepal</span>. My academic
                 journey led me to graduate with a degree in BBA (Marketing) from
                 the esteemed{" "}
                 <span className="different">
-                Kathmandu Institute of Science and Technology (KIST)
+                  Kathmandu Institute of Science and Technology (KIST)
                 </span>{" "}
                 . Moreover, it was my relentless pursuit of knowledge and a
                 deep-seated passion for technology that introduced me to the
@@ -34,6 +33,8 @@ export const Introduction = () => {
                 comprehensive Web Development Online Course from{" "}
                 <span className="different">The Odin Project</span>, I embarked
                 on a transformative journey into the world of web development.
+                My curiosity, effort and the ability/desire to find the answer
+                has helped me to always push forward.
               </h4>
             </div>
           </div>
