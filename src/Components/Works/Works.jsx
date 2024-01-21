@@ -3,7 +3,6 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { BsArrowUpRightSquareFill } from "react-icons/bs";
 
 import bakingFlowerImg from "../../assets/bakingFlower.jpg";
-import PawndaImg from "../../assets/pawnda.jpg";
 
 export const Works = () => {
   return (
@@ -13,7 +12,16 @@ export const Works = () => {
         <div className="allWorks">
           <div className="works_container" data-aos="fade-right">
             <div className="work">
-              <div className="work_videocontainer"></div>
+              <div className="work_videocontainer">
+                <div>
+                  <img
+                    src={bakingFlowerImg}
+                    alt="Baking Flower Image"
+                    height={200}
+                    width={500}
+                  />
+                </div>
+              </div>
               <div className="work_information">
                 <h2>Baking Flower</h2>
                 <p>
