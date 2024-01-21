@@ -29,7 +29,17 @@ export const Works = () => {
                   wonderful bakery items, especially cakes.
                 </p>
                 <div>{/* Icons Here */}</div>
-                <div className="work_icons_container"></div>
+                <div className="work_icons_container">
+                  <a
+                    href="https://bakingflower.com.np/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <BsArrowUpRightSquareFill size="30px" />
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
