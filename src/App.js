@@ -11,6 +11,7 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+import { Works } from "./Components/Works/Works";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -24,9 +25,13 @@ export default function App() {
       <main>
         <About />
         <Github />
+        <section id="#works">
+          <Works />
+        </section>
         <section id="#projects">
           <Projects />
         </section>
+
         <section id="#contact">
           <Contact />
         </section>
