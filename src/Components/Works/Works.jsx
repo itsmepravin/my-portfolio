@@ -48,6 +48,15 @@ export const Works = () => {
                       <FaFacebookF size="30px" />
                     </span>
                   </a>
+                  <a
+                    href="https://www.instagram.com/baking.flower/?hl=en"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <FaInstagram size="30px" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
