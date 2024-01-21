@@ -39,6 +39,15 @@ export const Works = () => {
                       <BsArrowUpRightSquareFill size="30px" />
                     </span>
                   </a>
+                  <a
+                    href="https://www.facebook.com/bakingflower"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <FaFacebookF size="30px" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
