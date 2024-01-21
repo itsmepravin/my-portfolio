@@ -115,11 +115,6 @@
     border: 2px solid var(--clr-primary);
     flex-direction: column;
   }
-
-  .work_icons_container {
-    display: flex;
-    gap: 20px;
-  }
   
   @media (max-width: 800px) {
     .work {
