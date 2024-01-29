@@ -63,7 +63,8 @@ export const Timeline = () => {
               Frontend Intern
             </h4>
             <p data-aos="fade-right">
-              - Maintained various projects, and re-builded vanilla websites with ReactJS.
+              - Maintained various projects, and re-builded vanilla websites
+              with ReactJS.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -156,7 +157,6 @@ export const Timeline = () => {
               - Developed and maintained responsive web applications, ensuring
               optimal user experiences across various devices and browsers.
             </p>
-            
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -182,7 +182,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-left"
             >
-              Supreme IT Solutions
+              IMS Software Pvt. Ltd.
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
