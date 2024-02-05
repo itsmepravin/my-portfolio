@@ -4,6 +4,7 @@ import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
   SiHtml5,
+  SiCss3,
   SiMaterialui,
   SiChai,
   SiEthereum,
@@ -29,6 +30,7 @@ import WeekendWatchImg from "../../assets/weekendWatch.jpg";
 import ConstitutionImg from "../../assets/constitution.jpg";
 import LancemeUpImg from "../../assets/lancemeup.jpg";
 import AiPlanetImg from "../../assets/aiplanet.jpg";
+import ModernUILoginImg from "../../assets/modernUI.jpg";
 
 export const Projects = () => {
   return (
@@ -36,6 +38,44 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          <div className="projects_container" data-aos="fade-left">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={ModernUILoginImg} alt="Modern UI Login" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Modern UI Login</h2>
+                <p>A modern day UI login/signup.</p>
+                <div>
+                  <SiHtml5 />
+                  <SiCss3 />
+                  <BsBootstrap />
+                </div>
+                <div>
+                  <a
+                    href="https://modern-ui-login.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/itsmepravin/modern-login"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
