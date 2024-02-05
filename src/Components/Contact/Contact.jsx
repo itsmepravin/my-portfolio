@@ -28,7 +28,7 @@ export const Contact = () => {
               <FaLinkedin className="linkedin" />
             </a>
             <a
-              href="https://github.com/itsmepravin?tab=repositories"
+              href="https://github.com/itsmepravin"
               target="_blank"
               rel="noreferrer"
             >
