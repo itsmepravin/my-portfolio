@@ -3,6 +3,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { BsArrowUpRightSquareFill } from "react-icons/bs";
 
 import bakingFlowerImg from "../../assets/bakingFlower.jpg";
+import myFashionNepalImg from "../../assets/myFashionNepal.jpg";
 
 export const Works = () => {
   return (
@@ -50,6 +51,58 @@ export const Works = () => {
                   </a>
                   <a
                     href="https://www.instagram.com/baking.flower/?hl=en"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <FaInstagram size="30px" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="works_container" data-aos="fade-right">
+            <div className="work">
+              <div className="work_videocontainer">
+                <div>
+                  <img
+                    src={myFashionNepalImg}
+                    alt="My Fashion Nepal"
+                    height={200}
+                    width={500}
+                  />
+                </div>
+              </div>
+              <div className="work_information">
+                <h2>My Fashion Nepal</h2>
+                <p>
+                  My Fashion Nepal is an online clothing brand store, with focus
+                  mainly on footwears.
+                </p>
+                <div>{/* Icons Here */}</div>
+                <div className="work_icons_container">
+                  <a
+                    href="https://myfashionnepal.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <BsArrowUpRightSquareFill size="30px" />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/fashionnepal90"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <FaFacebookF size="30px" />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/fashion_nepal_/"
                     target="_blank"
                     rel="noreferrer"
                   >
