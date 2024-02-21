@@ -10,7 +10,7 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript, SiTypescript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
 
@@ -33,6 +33,10 @@ export const Techstacks = () => {
             <h5>JavaScript</h5>
           </div>
           <div>
+            <SiTypescript />
+            <h5>TypeScript</h5>
+          </div>
+          <div>
             <FaReact />
             <h5>ReactJS</h5>
           </div>
@@ -43,10 +47,6 @@ export const Techstacks = () => {
           <div>
             <SiTailwindcss />
             <h5>TailwindCSS</h5>
-          </div>
-          <div>
-            <FaNodeJs />
-            <h5>NodeJS</h5>
           </div>
           <div>
             <DiMongodb />
