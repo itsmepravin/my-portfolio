@@ -48,7 +48,7 @@ export const Works = () => {
             </div>
           </div>
 
-          <div className="works_container" data-aos="fade-right">
+          <div className="works_container" data-aos="fade-left">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
@@ -100,7 +100,7 @@ export const Works = () => {
             </div>
           </div>
 
-          <div className="works_container" data-aos="fade-left">
+          <div className="works_container" data-aos="fade-right">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
@@ -152,7 +152,7 @@ export const Works = () => {
             </div>
           </div>
 
-          <div className="works_container" data-aos="fade-right">
+          <div className="works_container" data-aos="fade-left">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
