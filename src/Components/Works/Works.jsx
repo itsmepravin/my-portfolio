@@ -6,6 +6,7 @@ import bakingFlowerImg from "../../assets/bakingFlower.jpg";
 import myFashionNepalImg from "../../assets/myFashionNepal.jpg";
 import tanabMuktiHealingImg from "../../assets/tanabMuktiHealing.jpg";
 import sonamGearImg from "../../assets/sonamGear.jpg";
+import decorationsOfNepalImg from "../../assets/decorationsOfNepal.jpg";
 
 export const Works = () => {
   return (
@@ -176,6 +177,41 @@ export const Works = () => {
                 <div className="work_icons_container">
                   <a
                     href="https://tanabmuktihealing.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <BsArrowUpRightSquareFill size="30px" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="works_container" data-aos="fade-left">
+            <div className="work">
+              <div className="work_videocontainer">
+                <div>
+                  <img
+                    src={decorationsOfNepalImg}
+                    alt="Decorations of Nepal"
+                    height={200}
+                    width={500}
+                  />
+                </div>
+              </div>
+              <div className="work_information">
+                <h2>Decorations of Nepal</h2>
+                <p>
+                  Decorations of Nepal excels in wedding and event planning.
+                  They have been providing first-class event management services
+                  for the last 4 years.
+                </p>
+                <div>{/* Icons Here */}</div>
+                <div className="work_icons_container">
+                  <a
+                    href="https://decorations-of-nepal.business.site/"
                     target="_blank"
                     rel="noreferrer"
                   >
