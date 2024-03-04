@@ -7,6 +7,7 @@ import myFashionNepalImg from "../../assets/myFashionNepal.jpg";
 import tanabMuktiHealingImg from "../../assets/tanabMuktiHealing.jpg";
 import sonamGearImg from "../../assets/sonamGear.jpg";
 import decorationsOfNepalImg from "../../assets/decorationsOfNepal.jpg";
+import bymoNepalImg from "../../assets/BYMONepal.jpg";
 
 export const Works = () => {
   return (
@@ -15,6 +16,59 @@ export const Works = () => {
         <h2 className="section__title different">Works</h2>
         <div className="allWorks">
           <div className="works_container" data-aos="fade-right">
+            <div className="work">
+              <div className="work_videocontainer">
+                <div>
+                  <img
+                    src={bymoNepalImg}
+                    alt="BYMO Nepal Image"
+                    height={200}
+                    width={500}
+                  />
+                </div>
+              </div>
+              <div className="work_information">
+                <h2>BYMO Nepal</h2>
+                <p>
+                  BYMO stands for "Brands You're Missing Out". They provide
+                  luxurious and branded items for personal and business use.
+                </p>
+                <div>{/* Icons Here */}</div>
+                <div className="work_icons_container">
+                  <a
+                    href="https://bymonp.blanxer.io/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <BsArrowUpRightSquareFill size="30px" />
+                    </span>
+                  </a>
+
+                  <a
+                    href="https://www.facebook.com/bymoofficial"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <FaFacebookF size="30px" />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/bymo.np/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span style={{ borderRadius: "50%" }} type="button">
+                      <FaInstagram size="30px" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="works_container" data-aos="fade-left">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
@@ -49,7 +103,7 @@ export const Works = () => {
             </div>
           </div>
 
-          <div className="works_container" data-aos="fade-left">
+          <div className="works_container" data-aos="fade-right">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
@@ -101,7 +155,7 @@ export const Works = () => {
             </div>
           </div>
 
-          <div className="works_container" data-aos="fade-right">
+          <div className="works_container" data-aos="fade-left">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
@@ -153,7 +207,7 @@ export const Works = () => {
             </div>
           </div>
 
-          <div className="works_container" data-aos="fade-left">
+          <div className="works_container" data-aos="fade-right">
             <div className="work">
               <div className="work_videocontainer">
                 <div>
