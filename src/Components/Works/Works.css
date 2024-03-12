@@ -142,3 +142,16 @@
     }
   }
   
+  @media (max-width: 425px) {
+    .work {
+      width: 95%;
+    }
+
+    .work_videocontainer > div > img {
+      height: revert-layer;
+    }
+
+    .work_information > h2 {
+      font-size: 1.5rem;
+    }
+  }

@@ -37,7 +37,7 @@ export default function App() {
         </section>
       </main>
       {/* <Footer /> */}
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </div>
   );
 }

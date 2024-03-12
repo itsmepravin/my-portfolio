@@ -6,7 +6,6 @@
 
 .project {
   width: 110%;
-  /* height: 70vh; */
   margin: 6% 0% 6% 0%;
   box-shadow: var(--shadow);
   display: flex;
@@ -119,7 +118,6 @@
 @media (max-width: 800px) {
   .project {
     flex-direction: column;
-    /* height: 100vh; */
   }
   .project_videocontainer {
     flex-basis: 40%;
@@ -134,5 +132,19 @@
   .projects_container {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .project {
+    width: 95%;
+  }
+
+  .project_videocontainer > div > img {
+    height: revert-layer;
+  }
+
+  .project_information > h2 {
+    font-size: 1.5rem;
   }
 }
