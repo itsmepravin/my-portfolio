@@ -24,7 +24,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaSass } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
 
-import PawndaImg from "../../assets/pawnda.jpg";
+import PawndaImg from "../../assets/pawnda-image.jpg";
 import FitnessClub from "../../assets/fitnessClub.jpg";
 import WeekendWatchImg from "../../assets/weekendWatch.jpg";
 import ConstitutionImg from "../../assets/constitution.jpg";
