@@ -60,7 +60,7 @@ export const Navbar = () => {
               Projects
             </a>
           </li>
-          <li className="nav__list-item">
+          {/* <li className="nav__list-item">
             <a
               href="#contact"
               onClick={() => toggleNavList("#contact")}
@@ -68,7 +68,7 @@ export const Navbar = () => {
             >
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
         <button
           type="button"

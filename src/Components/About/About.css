@@ -23,6 +23,10 @@
   margin-top: 2.4em;
 }
 
+.about__contact svg {
+  font-size: 2em;
+}
+
 .about .link--icon {
   margin-right: 0.8em;
 }

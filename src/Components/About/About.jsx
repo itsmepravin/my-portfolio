@@ -32,7 +32,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/itsmepravin?tab=repositories"
+            href="https://github.com/itsmepravin"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
