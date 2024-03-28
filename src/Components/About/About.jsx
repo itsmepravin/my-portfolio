@@ -15,13 +15,17 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div className="about center">
+      <div className="flex-col mt-[3em] flex items-center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Pravin Singh</span>
+          Hello, I am{" "}
+          <span className="text-[color:var(--clr-primary)]">Pravin Singh</span>
         </h1>
         <Type />
 
-        <p className="about__desc" data-aos="fade-right">
+        <p
+          className="text-base max-w-[70%] text-center mt-[2.4em]"
+          data-aos="fade-right"
+        >
           I'm a passionate Full Stack Web Developer with a love for transforming
           ideas into functional and visually stunning digital experiences. My
           journey in web development began with a fascination for turning lines
@@ -30,7 +34,7 @@ export const About = () => {
           I'm always learning and adapting. Staying at the forefront of industry
           trends and best practices is a commitment I take seriously.
         </p>
-        <div className="about__contact center">
+        <div className="flex items-center mt-[2.4em]">
           <a
             href="https://github.com/itsmepravin"
             aria-label="github"
