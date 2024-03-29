@@ -4,19 +4,14 @@ import { Type } from "./Type";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import DescriptionIcon from "@material-ui/icons/Description";
-// import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
-// import Button from "@mui/material/Button";
 export const About = () => {
   return (
     <>
       <div className="flex-col mt-[3em] flex items-center">
-        <h1 data-aos="fade-right" className="mobileHead">
+        <h1 data-aos="fade-right">
           Hello, I am{" "}
           <span className="text-[color:var(--clr-primary)]">Pravin Singh</span>
         </h1>
@@ -40,7 +35,7 @@ export const About = () => {
             aria-label="github"
             target="_blank"
             rel="noreferrer"
-            className="link link--icon"
+            className="text-[color:var(--clr-fg-alt)] relative pt-0 pb-[0.3em] px-0 hover:text-[color:var(--clr-primary)] before:content-[''] before:inline before:w-[0%] before:h-[0.2em] before:absolute before:bg-[color:var(--clr-primary)] before:transition-[width] before:duration-[0.2s] before:ease-[ease-in] before:bottom-0 hover:before:w-full focus:before:w-full mr-[0.8em]"
           >
             <GitHubIcon />
           </a>
@@ -49,14 +44,14 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
-            className="link link--icon"
+            className="text-[color:var(--clr-fg-alt)] relative pt-0 pb-[0.3em] px-0 hover:text-[color:var(--clr-primary)] before:content-[''] before:inline before:w-[0%] before:h-[0.2em] before:absolute before:bg-[color:var(--clr-primary)] before:transition-[width] before:duration-[0.2s] before:ease-[ease-in] before:bottom-0 hover:before:w-full focus:before:w-full mr-[0.8em]"
           >
             <EmailIcon />
           </a>
           <a
             href="https://www.linkedin.com/in/pravin-b-singh-r-karwal-55b237201/"
             aria-label="linkedin"
-            className="link link--icon"
+            className="text-[color:var(--clr-fg-alt)] relative pt-0 pb-[0.3em] px-0 hover:text-[color:var(--clr-primary)] before:content-[''] before:inline before:w-[0%] before:h-[0.2em] before:absolute before:bg-[color:var(--clr-primary)] before:transition-[width] before:duration-[0.2s] before:ease-[ease-in] before:bottom-0 hover:before:w-full focus:before:w-full mr-[0.8em]"
             target="_blank"
             rel="noreferrer"
           >
