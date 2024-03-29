@@ -1,15 +1,13 @@
-import React from "react";
-import { Navbar } from "../Navbar/Navbar";
+import { useState, useContext } from "react";
 import { ThemeContext } from "../../Context/theme";
-import Image from "./../../assets/myLogo.png";
+import myLogo from "./../../assets/myLogo.png";
 
 import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 
-import "./Header.css";
 export const Header = () => {
-  const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
-  const [showNavList, setShowNavList] = React.useState(false);
+  const [{ themename, toggeltheme }] = useContext(ThemeContext);
+  const [showNavList, setShowNavList] = useState(false);
 
   const toggleNavList = (id) => {
     var element = document.getElementById(id);
@@ -21,29 +19,13 @@ export const Header = () => {
 
   return (
     <>
-      {/* <header
-        className={
-          "h-[8em] max-w-[1100px] w-[95%] justify-between mx-auto my-0" +
-          themename
-        }
-      >
-        <h3>
-          <a href="#home" className="link">
-            <span>
-              <img className="w-[30px] mr-1" src={Image} alt="logo" />
-            </span>
-          </a>
-        </h3>
-        <Navbar />
-      </header> */}
-
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="http://pravinsinghkarwal.com.np/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src={Image} class="h-8" alt="Flowbite Logo" />
+            <img src={myLogo} class="h-8" alt="My Logo" />
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             {/* <button
