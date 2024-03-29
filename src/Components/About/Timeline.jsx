@@ -1,5 +1,4 @@
-import React from "react";
-import "./Timeline.css";
+import { useContext, useEffect, useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,30 +6,31 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 import WorkIcon from "@material-ui/icons/Work";
-import SchoolIcon from "@material-ui/icons/School";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import { ThemeContext } from "../../Context/theme";
 
 export const Timeline = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
-  const [linecolor, setlinecolor] = React.useState(
+  const [{ themename }] = useContext(ThemeContext);
+  const [lineColor, setLineColor] = useState(
     themename === "light" ? "#23283e" : "#fcfcfc"
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (themename === "dark") {
-      setlinecolor("#fcfcfc");
+      setLineColor("#fcfcfc");
     } else {
-      setlinecolor("#23283e");
+      setLineColor("#23283e");
     }
   }, [themename]);
+
   return (
     <>
-      <div className="section mainsection">
-        <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Timeline 📅</span>
+      <div className="w-full mt-[1em] sm:mt-[4em] lg:mt-[5em]">
+        <h2 className="text-center mb-[1em] uppercase" data-aos="fade-right">
+          My{" "}
+          <span className="text-[color:var(--clr-primary)]">Timeline 📅</span>
         </h2>
-        <VerticalTimeline lineColor={linecolor}>
+        <VerticalTimeline lineColor={lineColor}>
           <VerticalTimelineElement
             date={"Aug 2022 - Nov 2022"}
             contentStyle={{
@@ -51,15 +51,12 @@ export const Timeline = () => {
             icon={<WorkIcon />}
           >
             <h3
-              className="vertical-timeline-element-title"
+              className="text-[1.1em] text-[color:var(--clr-primary)]"
               data-aos="fade-right"
             >
               LanceMe Up
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
+            <h4 className="text-[0.9em] mt-[0.5em]" data-aos="fade-right">
               Frontend Intern
             </h4>
             <p data-aos="fade-right">
@@ -87,15 +84,12 @@ export const Timeline = () => {
             icon={<WorkIcon />}
           >
             <h3
-              className="vertical-timeline-element-title"
+              className="text-[1.1em] text-[color:var(--clr-primary)]"
               data-aos="fade-left"
             >
               Lanceme Up
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-left"
-            >
+            <h4 className="text-[0.9em] mt-[0.5em]" data-aos="fade-left">
               Junior Frontend Developer
             </h4>
             <p data-aos="fade-left">
@@ -122,7 +116,6 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
             date={"April 2023 - June 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -142,15 +135,12 @@ export const Timeline = () => {
             icon={<WorkIcon />}
           >
             <h3
-              className="vertical-timeline-element-title"
+              className="text-[1.1em] text-[color:var(--clr-primary)]"
               data-aos="fade-right"
             >
               Supreme IT Solutions
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
+            <h4 className="text-[0.9em] mt-[0.5em]" data-aos="fade-right">
               Junior Frontend Developer (Probation)
             </h4>
             <p data-aos="fade-right">
@@ -159,8 +149,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"June 2023 - Nov 2023"}
+            date={"June 2023 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -179,15 +168,12 @@ export const Timeline = () => {
             icon={<WorkIcon />}
           >
             <h3
-              className="vertical-timeline-element-title"
+              className="text-[1.1em] text-[color:var(--clr-primary)]"
               data-aos="fade-left"
             >
               IMS Software Pvt. Ltd.
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-left"
-            >
+            <h4 className="text-[0.9em] mt-[0.5em]" data-aos="fade-left">
               Junior Frontend Developer
             </h4>
             <p data-aos="fade-right">

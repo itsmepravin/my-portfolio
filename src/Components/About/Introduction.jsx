@@ -14,13 +14,13 @@ export const Introduction = () => {
             About <span className="text-[var(--clr-primary)]">Me</span>
           </h2>
           <div className={"w-full flex mb-[4em] justify-center " + themename}>
-            <div className="basis-[30%] mb-[3em]">
+            {/* <div className="basis-[30%] mb-[3em]">
               <img
                 src={profilePic}
                 alt="Images"
                 className="w-3/5 h-full border-[color:var(--clr-primary)] rounded-[50%] border-2 border-solid"
               />
-            </div>
+            </div> */}
             <div className="w-full lg:w-[55%] text-center pt-5">
               <h4 className="text-[16px] lg:text-[1.1em] mt-[0.5em]">
                 I come from the city of{" "}
